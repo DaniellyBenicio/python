@@ -1,4 +1,6 @@
 #Crie um programa que leia uma lista de palavras do usuário e exiba a palavra mais longa.
+print('Descobrindo a palavra mais longa!')
+
 longa = ''
 
 for lista in range (1,6):
