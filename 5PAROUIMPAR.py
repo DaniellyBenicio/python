@@ -1,8 +1,8 @@
 #Crie um programa que leia um número do usuário e determine se esse número é par ou ímpar.
 
-num = int(input('Infomre um número: '))
-
+print('PAR ou iMPAR?')
+num = int(input('Informe um número: '))
 if num % 2 == 0:
-    print('O número informado é PAR!')
+    print(num, 'É PAR!')
 else:
-    print('O número informado é ÍMPAR!')
+    print(num, 'É ÍMPAR!')
